@@ -1,0 +1,24 @@
+Output(Assignment 4):
+
+PS C:\Users\DSFinal\DSFinal\DSFinal\Assignment4> javac BerkeleyAlgorithm.java
+PS C:\Users\DSFinal\DSFinal\DSFinal\Assignment4> java BerkeleyAlgorithm
+Enter number of clients: 4
+Enter coordinator (server) time: 23
+Enter time for client 1: 12
+Enter time for client 2: 11
+Enter time for client 3: 4
+Enter time for client 4: 23
+
+--- Before Synchronization ---
+Coordinator Time: 23
+Client 1 Time: 12
+Client 2 Time: 11
+Client 3 Time: 4
+Client 4 Time: 23
+
+--- After Synchronization ---
+Coordinator Time: 15
+Client 1 Time: 15
+Client 2 Time: 15
+Client 3 Time: 15
+Client 4 Time: 15

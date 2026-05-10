@@ -1,0 +1,204 @@
+Output(Assignment 6):
+
+Terminal 1
+PS C:\Users\DSFinal\DSFinal\DSFinal\Assignment6> javac Bully.java
+PS C:\Users\DSFinal\DSFinal\DSFinal\Assignment6> java Bully
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 1
+Enter the number of processes:- 5
+Creating processes..
+P1 created
+P2 created
+P3 created
+P4 created
+P5 created
+Process P5 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 2
+P1 is up
+P2 is up
+P3 is up
+P4 is up
+P5 is up
+Process P5 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 4
+Enter the process number to down:- 4
+Process 4 is down.
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 4
+Enter the process number to down:- 3
+Process 3 is down.
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 2
+P1 is up
+P2 is up
+P3 is down
+P4 is down
+P5 is up
+Process P5 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 3
+Enter the process number to up:- 3
+Process 3 is now up.
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 5
+Enter the process number which will perform election:- 2
+Election message sent from process 2 to process 3
+Election message sent from process 3 to process 4
+Election message sent from process 3 to process 5
+P1 is up
+P2 is up
+P3 is up
+P4 is down
+P5 is up
+Process P5 is the coordinator
+Bully Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 6
+
+Terminal 2
+PS C:\Users\DSFinal\DSFinal\DSFinal\Assignment6> javac Ring.java
+PS C:\Users\DSFinal\DSFinal\DSFinal\Assignment6> java Ring
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 1
+Enter the total number of processes:- 4
+P1 created.
+P2 created.
+P3 created.
+P4 created.
+P4 is the coordinator
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 2
+P1 is up.
+P2 is up.
+P3 is up.
+P4 is up.
+P4 is the coordinator
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 4
+Enter the process to down:- 4
+Process P4 is down.
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 2
+P1 is up.
+P2 is up.
+P3 is up.
+P4 is down.
+P4 is the coordinator
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 3
+Enter the process to up:- 4
+Process P4 is up.
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 2
+P1 is up.
+P2 is up.
+P3 is up.
+P4 is up.
+P4 is the coordinator
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 5
+Enter the process which will initiate election:- 3
+Process P3 sending the following list:- [ 3  ]
+Process P4 sending the following list:- [ 3 4  ]
+Process P1 sending the following list:- [ 3 4 1  ]
+Process P2 sending the following list:- [ 3 4 1 2  ]
+Process P3 has declared P4 as the coordinator
+Ring Algorithm
+1. Create processes
+2. Display processes
+3. Up a process
+4. Down a process
+5. Run election algorithm
+6. Exit Program
+Enter your choice:- 6
